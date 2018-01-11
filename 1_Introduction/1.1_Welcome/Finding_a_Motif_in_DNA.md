@@ -9,7 +9,7 @@ to its left, including itself (e.g., the positions of all occurrences
 of 'U' in "AUGCUUCAGAAAGGUCUUACG" are 2, 5, 6, 15, 17, and 18). The symbol
 at position _i_ of s is denoted by _s_[_i_].
 
-A substring of $s$ can be represented as _s_[_j_:_k_], where _j_ and _k_
+A substring of _s_ can be represented as _s_[_j_:_k_], where _j_ and _k_
 represent the starting and ending positions of the substring in _s_;
 for example, if _s_ = "AUGCUUCAGAAAGGUCUUACG", then _s_[2:5] = "UGCU".
 
