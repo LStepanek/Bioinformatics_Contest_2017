@@ -13,7 +13,7 @@ A substring of _s_ can be represented as _s_[_j_:_k_], where _j_ and _k_
 represent the starting and ending positions of the substring in _s_;
 for example, if _s_ = "AUGCUUCAGAAAGGUCUUACG", then _s_[2:5] = "UGCU".
 
-The _location_ of a substring _s[_j_:_k_] is its beginning {{position}} _j_;
+The _location_ of a substring _s_[_j_:_k_] is its beginning {{position}} _j_;
 note that _t_ will have multiple locations in _s_ if it occurs more
 than once as a substring of _s_ (see the Sample below).
 
