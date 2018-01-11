@@ -26,6 +26,7 @@ ___
 **Sample Input:**
 
 `GATATATGCATATACTT`
+
 `ATAT`
 
 ___
