@@ -1,35 +1,35 @@
 ## Example: Finding a Motif in DNA
 
-Given two strings $s$ and $t$, $t$ is a substring of $s$ if $t$ is contained
-as a contiguous collection of symbols in $s$ (as a result, $t$ must be
-no longer than $s$).
+Given two strings _s_ and _t_, _t_ is a substring of _s_ if _t_ is contained
+as a contiguous collection of symbols in _s_ (as a result, _t_ must be
+no longer than _s_).
 
 The position of a symbol in a string is the total number of symbols found
 to its left, including itself (e.g., the positions of all occurrences
 of 'U' in "AUGCUUCAGAAAGGUCUUACG" are 2, 5, 6, 15, 17, and 18). The symbol
-at position $i$ of s is denoted by $s[i]$.
+at position _i_ of s is denoted by _s_[_i_].
 
-A substring of $s$ can be represented as $s[j:k]$, where $j$ and $k$
-represent the starting and ending positions of the substring in $s$;
-for example, if $s$ = "AUGCUUCAGAAAGGUCUUACG", then $s[2:5] = "UGCU"$.
+A substring of $s$ can be represented as _s_[_j_:_k_], where _j_ and _k_
+represent the starting and ending positions of the substring in _s_;
+for example, if _s_ = "AUGCUUCAGAAAGGUCUUACG", then _s_[2:5] = "UGCU".
 
-The ~location~ of a substring $s[j:k]$ is its beginning {{position}} $j$;
-note that $t$ will have multiple locations in $s$ if it occurs more
-than once as a substring of $s$ (see the Sample below).
+The `~location`~ of a substring _s[_j_:_k_] is its beginning {{position}} _j_;
+note that _t_ will have multiple locations in _s_ if it occurs more
+than once as a substring of _s_ (see the Sample below).
 
-*Given:* Two DNA strings $s$ and $t$ (each of length at most 1 kbp).
+**Given:** Two DNA strings _s_ and _t_ (each of length at most 1 kbp).
 
-*Return:* All locations of $t$ as a substring of $s$.
+**Return:** All locations of _t_ as a substring of _s_.
 
 ___
 
-*Sample Input:*
+**Sample Input:**
 
 GATATATGCATATACTT
 ATAT
 
 ___
 
-*Sample Output:*
+**Sample Output:**
 
 2 4 10
